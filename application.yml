@@ -1,0 +1,11 @@
+axoniq:
+  file:
+    storage: events
+
+  eventstore:
+    cluster:
+      enabled: false
+    ssl:
+      enabled: false
+    accesscontrol:
+      enabled: false
